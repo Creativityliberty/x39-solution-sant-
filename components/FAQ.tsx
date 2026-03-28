@@ -5,20 +5,32 @@ import { ChevronDown, ChevronUp } from 'lucide-react';
 export default function FAQ() {
   const faqs = [
     {
-      question: "Qu'est-ce que la photothérapie ?",
-      answer: "La science de la photothérapie utilise la lumière pour améliorer la santé de l'organisme. Nos patchs utilisent cette technologie pour stimuler le processus d'autoguérison du corps."
+      question: "Combien de temps dois-je porter le patch ?",
+      answer: "Portez-le jusqu'à 12 heures maximum, puis jetez-le. Attendez ensuite 12 heures avant d'en appliquer un nouveau pour permettre à votre corps de se reposer."
     },
     {
-      question: "Comment utiliser le patch X39 ?",
-      answer: "Appliquez un patch le matin sur une peau propre et sèche. Portez-le jusqu'à 12 heures avant de le jeter. Assurez-vous de bien vous hydrater pendant l'utilisation."
+      question: "Où dois-je l'appliquer ?",
+      answer: "Vous pouvez l'appliquer n'importe où sur le corps. Cependant, les points recommandés pour des résultats optimaux sont à la base de la nuque ou juste sous le nombril."
+    },
+    {
+      question: "Puis-je me doucher avec le patch ?",
+      answer: "Oui, tout à fait ! Les patchs LifeWave sont dotés d'un adhésif hypoallergénique de qualité médicale et sont résistants à l'eau. Vous pouvez vous doucher ou nager avec."
+    },
+    {
+      question: "Au bout de combien de temps verrai-je des résultats ?",
+      answer: "Certaines personnes ressentent un soulagement immédiat de la douleur ou un regain d'énergie dès le premier jour. Pour d'autres, les bienfaits profonds (comme la régénération cellulaire) peuvent prendre quelques semaines ou mois. La constance et l'hydratation sont les clés de la réussite."
+    },
+    {
+      question: "Faut-il boire beaucoup d'eau ?",
+      answer: "Oui, c'est crucial ! La photothérapie fonctionne de manière optimale lorsque votre corps est bien hydraté. Nous recommandons de boire au moins 1,5 à 2 litres d'eau par jour."
     },
     {
       question: "Y a-t-il des substances chimiques dans le patch ?",
-      answer: "Non, les patchs LifeWave sont non transdermiques. Rien n'est absorbé par le corps. Ils fonctionnent uniquement en réfléchissant la lumière infrarouge émise par votre corps."
+      answer: "Non, les patchs LifeWave sont non transdermiques. Absolument rien n'est absorbé par le corps. Ils fonctionnent uniquement en réfléchissant la lumière infrarouge émise par votre corps."
     },
     {
       question: "Quelle est la garantie ?",
-      answer: "Nous offrons une garantie satisfait ou remboursé de 90 jours pour les clients au détail et clients privilégiés, et 30 jours pour les Brand Partners."
+      answer: "Nous offrons une garantie satisfait ou remboursé de 90 jours pour les clients au détail et les clients privilégiés. Vous pouvez essayer sans aucun risque."
     }
   ];
 

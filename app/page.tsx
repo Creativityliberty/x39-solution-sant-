@@ -197,32 +197,35 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Why We're Different */}
+      {/* Why We're Different & Science */}
       <section className="py-20 px-4 max-w-7xl mx-auto text-center">
-        <h2 className="text-blue-600 uppercase tracking-widest text-sm font-bold mb-2">Pourquoi nous sommes différents</h2>
-        <h3 className="text-3xl md:text-5xl font-bold text-slate-900 uppercase font-bayon mb-12">Une approche unique du bien-être</h3>
+        <h2 className="text-blue-600 uppercase tracking-widest text-sm font-bold mb-2">La Science derrière le Miracle</h2>
+        <h3 className="text-3xl md:text-5xl font-bold text-slate-900 uppercase font-bayon mb-6">Une approche unique et prouvée</h3>
+        <p className="text-slate-600 text-lg max-w-3xl mx-auto mb-12">
+          Inventée par David Schmidt, la technologie LifeWave est soutenue par plus de 80 brevets et des dizaines d&apos;études cliniques indépendantes. C&apos;est la pointe de la science du bien-être.
+        </p>
         
         <div className="grid md:grid-cols-3 gap-8">
           <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-lg hover:shadow-xl transition-shadow">
             <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6">
               <ShieldCheck className="w-8 h-8 text-blue-600" />
             </div>
-            <h4 className="text-xl font-bold text-slate-900 mb-4">100% Sûr & Non Invasif</h4>
-            <p className="text-slate-600">Rien n&apos;est absorbé par le corps. Aucune drogue, aucun stimulant, aucune substance chimique.</p>
+            <h4 className="text-xl font-bold text-slate-900 mb-4">100% Naturel & Sûr</h4>
+            <p className="text-slate-600">Aucun médicament, aucun produit chimique, aucun stimulant n&apos;entre dans votre corps. C&apos;est une approche non invasive.</p>
           </div>
           <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-lg hover:shadow-xl transition-shadow">
             <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6">
               <Zap className="w-8 h-8 text-blue-600" />
             </div>
-            <h4 className="text-xl font-bold text-slate-900 mb-4">Activation Naturelle</h4>
-            <p className="text-slate-600">Utilise la propre lumière infrarouge de votre corps pour stimuler les processus naturels de guérison.</p>
+            <h4 className="text-xl font-bold text-slate-900 mb-4">Activation par la Lumière</h4>
+            <p className="text-slate-600">Utilise la propre lumière infrarouge de votre corps pour stimuler les processus naturels de guérison et de régénération.</p>
           </div>
           <div className="bg-white p-8 rounded-2xl border border-slate-200 shadow-lg hover:shadow-xl transition-shadow">
             <div className="w-16 h-16 bg-blue-50 rounded-full flex items-center justify-center mx-auto mb-6">
               <Activity className="w-8 h-8 text-blue-600" />
             </div>
             <h4 className="text-xl font-bold text-slate-900 mb-4">Technologie Brevetée</h4>
-            <p className="text-slate-600">Une science de la photothérapie prouvée et soutenue par des décennies de recherche.</p>
+            <p className="text-slate-600">Une science de la photothérapie prouvée, reconnue mondialement et soutenue par des décennies de recherche clinique.</p>
           </div>
         </div>
       </section>
@@ -315,43 +318,89 @@ export default function Home() {
         </div>
       </section>
 
-      {/* The Kit */}
+      {/* Pricing Table & Guarantee */}
       <section className="py-20 px-4 max-w-7xl mx-auto">
-        <div className="grid lg:grid-cols-2 gap-12 items-center">
-          <div className="relative aspect-[3/2] bg-slate-50 rounded-2xl overflow-hidden shadow-xl border border-slate-200 flex items-center justify-center p-8">
-            <Image 
-              src="https://scontent.fcdg3-1.fna.fbcdn.net/v/t39.30808-6/639559109_10173788367980697_2468497065829578163_n.jpg?stp=cp6_dst-jpg_s280x280_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e06c5d&_nc_ohc=WOW3aT_xaOgQ7kNvwE-WIOb&_nc_oc=AdonhPR2dIOEyI1tPuEdygePeObDFSxJ2NzErcMME_NKu9PpS4iqb8s5mZfjIn7vMLDcp64gmzPnJcluvvqCcOzl&_nc_zt=23&_nc_ht=scontent.fcdg3-1.fna&_nc_gid=kZCAga2kRHAKIOwVROzl7Q&_nc_ss=7a32e&oh=00_Afw02hyhovooZGFHIyKzRj1gWRSjG0Jdyj4srK3UIWQhjQ&oe=69CE0D7E" 
-              alt="LifeWave X39 Box" 
-              fill 
-              className="object-cover"
-              unoptimized
-              referrerPolicy="no-referrer"
-            />
-          </div>
-          <div className="space-y-8">
-            <h2 className="text-3xl md:text-5xl font-bold text-slate-900 uppercase font-bayon">Le Kit LifeWave X39®</h2>
-            <p className="text-slate-700 text-lg">
-              30 patchs pour un mois complet de bien-être et de régénération.
-            </p>
-            <ul className="space-y-4">
-              <li className="flex items-center gap-3">
-                <CheckCircle2 className="text-blue-600 w-6 h-6 flex-shrink-0" />
-                <span className="text-lg font-medium text-slate-800">Résultats rapides prouvés par des milliers de personnes</span>
+        <div className="text-center mb-16">
+          <h2 className="text-blue-600 uppercase tracking-widest text-sm font-bold mb-2">Passez à l&apos;action</h2>
+          <h3 className="text-3xl md:text-5xl font-bold text-slate-900 uppercase font-bayon">Choisissez votre offre X39®</h3>
+          <p className="text-slate-600 text-lg mt-4 max-w-2xl mx-auto">
+            Chaque pochette contient 30 patchs pour un mois complet de bien-être et de régénération.
+          </p>
+        </div>
+
+        <div className="grid md:grid-cols-2 gap-8 max-w-5xl mx-auto">
+          {/* Retail Offer */}
+          <div className="bg-white rounded-3xl border border-slate-200 shadow-lg p-8 flex flex-col relative">
+            <h4 className="text-2xl font-bold text-slate-900 mb-2">Client au Détail</h4>
+            <p className="text-slate-500 mb-6">Idéal pour essayer un mois sans engagement.</p>
+            <div className="mb-8">
+              <span className="text-5xl font-bold text-slate-900">170,40 €</span>
+              <span className="text-slate-500"> / pochette</span>
+            </div>
+            <ul className="space-y-4 mb-8 flex-grow">
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="text-slate-400 w-6 h-6 flex-shrink-0" />
+                <span className="text-slate-700">1 pochette de 30 patchs X39</span>
               </li>
-              <li className="flex items-center gap-3">
-                <CheckCircle2 className="text-blue-600 w-6 h-6 flex-shrink-0" />
-                <span className="text-lg font-medium text-slate-800">Basé sur la science avec des données à l&apos;appui</span>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="text-slate-400 w-6 h-6 flex-shrink-0" />
+                <span className="text-slate-700">Achat unique, sans engagement</span>
               </li>
-              <li className="flex items-center gap-3">
-                <CheckCircle2 className="text-blue-600 w-6 h-6 flex-shrink-0" />
-                <span className="text-lg font-medium text-slate-800">Sain à utiliser, contrairement aux autres alternatives</span>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="text-slate-400 w-6 h-6 flex-shrink-0" />
+                <span className="text-slate-700">Garantie satisfait ou remboursé 90 jours</span>
               </li>
             </ul>
-            <div className="pt-6">
-              <Link href="https://lifewave.com/ltagne/store/product/39000.009.009" target="_blank" rel="noopener noreferrer" className="w-full sm:w-auto inline-flex bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-transform hover:scale-105 items-center justify-center gap-2 shadow-lg shadow-red-600/30">
-                COMMANDER LE KIT - 170,40 € <ArrowRight className="w-5 h-5" />
-              </Link>
+            <Link href="https://lifewave.com/ltagne/store/product/39000.009.009" target="_blank" rel="noopener noreferrer" className="w-full block text-center bg-slate-100 hover:bg-slate-200 text-slate-900 font-bold py-4 px-8 rounded-full text-lg transition-colors">
+              Acheter au Détail
+            </Link>
+          </div>
+
+          {/* Preferred Customer Offer */}
+          <div className="bg-blue-600 rounded-3xl border-2 border-blue-400 shadow-2xl p-8 flex flex-col relative transform md:-translate-y-4">
+            <div className="absolute top-0 left-1/2 -translate-x-1/2 -translate-y-1/2 bg-amber-400 text-amber-900 font-bold px-4 py-1 rounded-full text-sm uppercase tracking-wider shadow-md">
+              Le plus populaire
             </div>
+            <h4 className="text-2xl font-bold text-white mb-2">Client Privilège</h4>
+            <p className="text-blue-200 mb-6">Économisez ~35% avec l&apos;abonnement mensuel.</p>
+            <div className="mb-8">
+              <span className="text-5xl font-bold text-white">114,00 €</span>
+              <span className="text-blue-200"> / pochette</span>
+            </div>
+            <ul className="space-y-4 mb-8 flex-grow">
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="text-amber-400 w-6 h-6 flex-shrink-0" />
+                <span className="text-white font-medium">1 pochette de 30 patchs X39 par mois</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="text-amber-400 w-6 h-6 flex-shrink-0" />
+                <span className="text-white font-medium">Économie de plus de 50 € par mois</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="text-amber-400 w-6 h-6 flex-shrink-0" />
+                <span className="text-white font-medium">Annulable à tout moment</span>
+              </li>
+              <li className="flex items-start gap-3">
+                <CheckCircle2 className="text-amber-400 w-6 h-6 flex-shrink-0" />
+                <span className="text-white font-medium">Garantie satisfait ou remboursé 90 jours</span>
+              </li>
+            </ul>
+            <Link href="https://lifewave.com/ltagne/store/product/39000.009.009" target="_blank" rel="noopener noreferrer" className="w-full block text-center bg-amber-400 hover:bg-amber-500 text-amber-900 font-bold py-4 px-8 rounded-full text-lg transition-transform hover:scale-105 shadow-lg">
+              Devenir Client Privilège
+            </Link>
+          </div>
+        </div>
+
+        {/* Guarantee Badge */}
+        <div className="mt-16 max-w-3xl mx-auto bg-slate-50 rounded-2xl border border-slate-200 p-8 flex flex-col md:flex-row items-center gap-6 text-center md:text-left">
+          <div className="w-20 h-20 bg-blue-100 rounded-full flex items-center justify-center flex-shrink-0">
+            <ShieldCheck className="w-10 h-10 text-blue-600" />
+          </div>
+          <div>
+            <h4 className="text-2xl font-bold text-slate-900 mb-2">Garantie 100% Sans Risque</h4>
+            <p className="text-slate-600">
+              Nous sommes tellement convaincus des résultats que nous offrons une <strong>garantie satisfait ou remboursé de 90 jours</strong> pour tous les clients au détail et privilégiés. Si vous ne ressentez pas les bienfaits, nous vous remboursons. C&apos;est aussi simple que ça.
+            </p>
           </div>
         </div>
       </section>
@@ -392,20 +441,6 @@ export default function Home() {
         </div>
       </section>
 
-      {/* Risk Free */}
-      <section className="bg-slate-50 py-20 px-4 border-y border-slate-200 text-center">
-        <div className="max-w-3xl mx-auto">
-          <ShieldCheck className="w-16 h-16 text-blue-600 mx-auto mb-6" />
-          <h2 className="text-3xl md:text-5xl font-bold text-slate-900 uppercase font-bayon mb-6">Essayez sans risque</h2>
-          <p className="text-slate-700 text-lg mb-8 font-medium">
-            Garantie satisfait ou remboursé de 90 jours pour les clients au détail. Si vous ne ressentez pas les bienfaits, nous vous remboursons. C&apos;est aussi simple que ça.
-          </p>
-          <Link href="https://lifewave.com/ltagne/store/product/39000.009.009" target="_blank" rel="noopener noreferrer" className="inline-flex bg-red-600 hover:bg-red-700 text-white font-bold py-4 px-8 rounded-full text-lg transition-transform hover:scale-105 items-center gap-2 shadow-lg shadow-red-600/30">
-            COMMANDER MAINTENANT <ArrowRight className="w-5 h-5" />
-          </Link>
-        </div>
-      </section>
-
       {/* FAQ */}
       <section className="py-20 px-4">
         <div className="text-center mb-12">
@@ -418,12 +453,15 @@ export default function Home() {
       {/* Footer */}
       <footer className="bg-slate-900 border-t border-slate-800 py-12 px-4 text-center text-slate-400 text-xs md:text-sm">
         <div className="max-w-4xl mx-auto space-y-4">
-          <p className="uppercase tracking-widest text-blue-400 font-bold mb-4">Disclaimer</p>
+          <p className="uppercase tracking-widest text-blue-400 font-bold mb-4">Avertissement Légal & Médical</p>
           <p>
-            Les produits LifeWave sont destinés au bien-être général et ne remplacent pas un avis médical. Consultez un professionnel de santé avant utilisation si nécessaire.
+            <strong>Les produits LifeWave ne sont pas destinés à diagnostiquer, traiter, guérir ou prévenir une maladie.</strong>
           </p>
           <p>
-            Les produits LifeWave sont destinés au bien-être général et visent uniquement à maintenir ou à encourager un état de santé général ou une activité saine. Le contenu fourni est présenté sous forme de résumé, est de nature générale et n’est fourni qu’à titre d’information.
+            Les informations fournies sur ce site le sont à titre éducatif uniquement et ne remplacent en aucun cas l&apos;avis d&apos;un professionnel de la santé. Consultez toujours votre médecin ou un professionnel de santé qualifié avant de commencer tout nouveau programme de bien-être, ou si vous avez des questions concernant une condition médicale.
+          </p>
+          <p>
+            Les témoignages présentés sont des expériences individuelles et les résultats peuvent varier d&apos;une personne à l&apos;autre.
           </p>
           <div className="pt-8 border-t border-slate-800 mt-8 flex flex-col md:flex-row justify-center items-center gap-4 md:gap-8">
             <span>© {new Date().getFullYear()} Tous droits réservés</span>
