@@ -56,11 +56,12 @@ export default function Home() {
           <div className="relative">
             <div className="relative h-[500px] rounded-2xl overflow-hidden border border-slate-200 shadow-xl">
               <Image 
-                src="https://picsum.photos/seed/woman-patch/800/800" 
+                src="https://images.unsplash.com/photo-1544367567-0f2fcb009e0b?q=80&w=800&auto=format&fit=crop" 
                 alt="Femme souriante avec LifeWave X39" 
                 fill 
                 className="object-cover"
                 priority
+                unoptimized
                 referrerPolicy="no-referrer"
               />
               <div className="absolute inset-0 bg-gradient-to-t from-slate-900/80 to-transparent"></div>
@@ -81,15 +82,15 @@ export default function Home() {
       <section className="bg-blue-600 py-12 px-4 text-white">
         <div className="max-w-7xl mx-auto text-center">
           <h2 className="text-3xl md:text-4xl font-bold uppercase tracking-wider mb-4 flex items-center justify-center gap-3">
-            <HeartPulse className="w-8 h-8" /> Healing Milestones
+            <HeartPulse className="w-8 h-8" /> Étapes de Guérison
           </h2>
-          <p className="text-blue-100 text-lg mb-8 font-medium">Conditions Successfully Resolved & Managed by Our Community</p>
+          <p className="text-blue-100 text-lg mb-8 font-medium">Conditions traitées et gérées avec succès par notre communauté</p>
           
           <div className="flex flex-wrap justify-center gap-4">
             {[
-              "Spinal Arthritis", "Severe Neuropathy", "Plantar Fasciitis", 
-              "Chronic Neck & Back Pain", "Fibromyalgia Pain", "Severe Swelling", 
-              "Digestion & Constipation", "Osteoporosis Discomfort"
+              "Arthrose Vertébrale", "Neuropathie Sévère", "Fasciite Plantaire", 
+              "Douleurs Chroniques Cou & Dos", "Douleurs de Fibromyalgie", "Gonflement Sévère", 
+              "Digestion & Constipation", "Inconfort lié à l'Ostéoporose"
             ].map((disease, idx) => (
               <span key={idx} className="bg-white text-blue-700 px-6 py-2 rounded-full font-bold shadow-md">
                 {disease}
@@ -183,10 +184,11 @@ export default function Home() {
           <div className="order-1 lg:order-2 flex justify-center">
             <div className="relative w-full max-w-md aspect-square bg-white rounded-2xl p-8 shadow-xl border border-slate-100">
               <Image 
-                src="https://picsum.photos/seed/molecule/400/400" 
+                src="https://images.unsplash.com/photo-1532187863486-abf9dbad1b69?q=80&w=400&auto=format&fit=crop" 
                 alt="Copper Peptide GHK-Cu" 
                 fill 
-                className="object-contain p-8"
+                className="object-cover rounded-2xl"
+                unoptimized
                 referrerPolicy="no-referrer"
               />
             </div>
@@ -234,14 +236,14 @@ export default function Home() {
 
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-6">
             {[
-              { name: "John", condition: "Spinal Arthritis", text: "I have had ARTHRITIS in my spine for years and am on a LOT of pain meds... I started patching in Nov 2024 and use 3 sets of patches! Within minutes my pain was gone." },
-              { name: "Lisa Fisch", condition: "Neuropathy & Digestion", text: "I was in a bad ATV accident... electrocuted and burned. I was on morphine and gabapentin for pain and neuropathy. Within 2 weeks of using X39, the neuropathy was pretty much gone. It also helped my digestion immensely." },
-              { name: "Lisa Collins", condition: "Plantar Fasciitis", text: "For my 84yo Mom: painful plantar fasciitis for over 10 years. Doctors gave no hope. She patched X39... and foot pain disappeared after 2 months. She is sharp as a tack and a bundle of energy!" },
-              { name: "Dana B Henderson", condition: "Neck Pain", text: "I have had neck pain for a few weeks now. I started wearing the patch X39 and Aeon... and I am finally getting relief and able to turn my neck back and forth." },
-              { name: "Nicole Morley", condition: "Fibromyalgia", text: "Diagnosed with fibromyalgia, fatty liver disease, Nash, POTS syndrome... I've been on X39 for almost 2 months. I notice a significant decrease in my pain." },
-              { name: "Brenda Kukuk Price", condition: "Degenerative Discs", text: "I have severe degenerative discs in my back and osteoporosis. Used to have chronic pain before patches. Now it’s soooo much better!! X39, X49 and Aeon have been life changing." },
-              { name: "Lynnette Smith", condition: "Low Back Pain", text: "I had bad low back pain for years after an accident... No surgery for me! They start working the moment you put them on your body! I’m thrilled!" },
-              { name: "D.j. Tillman", condition: "Severe Swelling", text: "My friend could barely walk, I patched her with X39 and Aeon on the affected area. Within 24 hours pain and swelling were gone." },
+              { name: "John", condition: "Arthrose Vertébrale", text: "J'ai de l'ARTHROSE dans la colonne vertébrale depuis des années et je prends BEAUCOUP d'analgésiques... J'ai commencé à mettre des patchs en novembre 2024 et j'utilise 3 jeux de patchs ! En quelques minutes, ma douleur a disparu." },
+              { name: "Lisa Fisch", condition: "Neuropathie & Digestion", text: "J'ai eu un grave accident de quad... électrocutée et brûlée. J'étais sous morphine et gabapentine pour la douleur et la neuropathie. En 2 semaines d'utilisation du X39, la neuropathie avait pratiquement disparu. Cela a aussi énormément aidé ma digestion." },
+              { name: "Lisa Collins", condition: "Fasciite Plantaire", text: "Pour ma mère de 84 ans : fasciite plantaire douloureuse depuis plus de 10 ans. Les médecins ne donnaient aucun espoir. Elle a mis le patch X39... et la douleur au pied a disparu après 2 mois. Elle a toute sa tête et déborde d'énergie !" },
+              { name: "Dana B Henderson", condition: "Douleur au cou", text: "J'ai des douleurs au cou depuis quelques semaines. J'ai commencé à porter les patchs X39 et Aeon... et je suis enfin soulagée, je peux tourner mon cou dans tous les sens." },
+              { name: "Nicole Morley", condition: "Fibromyalgie", text: "Diagnostiquée avec la fibromyalgie, la maladie du foie gras, la NASH, le syndrome de POTS... Je suis sous X39 depuis presque 2 mois. Je remarque une diminution significative de mes douleurs." },
+              { name: "Brenda Kukuk Price", condition: "Disques Dégénératifs", text: "J'ai des disques dégénératifs sévères dans le dos et de l'ostéoporose. J'avais des douleurs chroniques avant les patchs. Maintenant, c'est teeeellement mieux !! X39, X49 et Aeon ont changé ma vie." },
+              { name: "Lynnette Smith", condition: "Douleur au bas du dos", text: "J'ai eu de fortes douleurs au bas du dos pendant des années après un accident... Pas de chirurgie pour moi ! Ils commencent à agir dès que vous les mettez sur votre corps ! Je suis ravie !" },
+              { name: "D.j. Tillman", condition: "Gonflement Sévère", text: "Mon amie pouvait à peine marcher, je lui ai mis les patchs X39 et Aeon sur la zone affectée. En 24 heures, la douleur et le gonflement avaient disparu." },
               { name: "Sophie", condition: "Fatigue", text: "J’étais sceptique au début, mais j’ai senti une différence sur mon énergie dès la première semaine." }
             ].map((t, i) => (
               <div key={i} className="bg-white p-6 rounded-xl border border-slate-200 shadow-md flex flex-col hover:shadow-lg transition-shadow">
@@ -250,8 +252,8 @@ export default function Home() {
                 </div>
                 <p className="text-slate-700 italic mb-6 flex-grow text-sm leading-relaxed">&quot;{t.text}&quot;</p>
                 <div className="flex items-center gap-3 mt-auto pt-4 border-t border-slate-100">
-                  <div className="w-10 h-10 bg-slate-200 rounded-full overflow-hidden relative flex-shrink-0">
-                    <Image src={`https://picsum.photos/seed/${t.name.replace(/\s+/g, '')}/100/100`} alt={t.name} fill className="object-cover" referrerPolicy="no-referrer" />
+                  <div className="w-10 h-10 bg-blue-100 text-blue-700 font-bold text-lg rounded-full flex items-center justify-center flex-shrink-0">
+                    {t.name.charAt(0)}
                   </div>
                   <div>
                     <p className="text-slate-900 font-bold text-sm">{t.name}</p>
@@ -264,15 +266,58 @@ export default function Home() {
         </div>
       </section>
 
+      {/* Galerie des Cas - Avant / Après */}
+      <section className="py-20 px-4 bg-slate-50 border-y border-slate-200">
+        <div className="max-w-7xl mx-auto text-center">
+          <h2 className="text-blue-600 uppercase tracking-widest text-sm font-bold mb-2">Résultats Visuels</h2>
+          <h3 className="text-3xl md:text-5xl font-bold text-slate-900 uppercase font-bayon mb-12">Galerie des Cas : Avant / Après</h3>
+          
+          <div className="grid md:grid-cols-2 gap-8 max-w-4xl mx-auto">
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-200 flex flex-col">
+              <div className="relative aspect-square">
+                <Image 
+                  src="https://scontent.fcdg3-1.fna.fbcdn.net/v/t39.30808-6/489757255_2870538706450530_5739715753588907290_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=106&ccb=1-7&_nc_sid=e06c5d&_nc_ohc=gsejL-sU3iwQ7kNvwH674Gk&_nc_oc=AdpJ17sppATAouXQhp97DPFM-IPy5_5MbtvkBI9QTffO51hikOXLmwVFVi0BgBZSJVkjtIciiuh_H1QlUQ5XKe2b&_nc_zt=23&_nc_ht=scontent.fcdg3-1.fna&_nc_gid=1_cKUW5_NODmmXO3FFzTAg&_nc_ss=7a32e&oh=00_AfwB3wQp8eLSwngcYI7BlxGDfXwLILOkDAYQdUa7hIlVzg&oe=69CE1363" 
+                  alt="Avant" 
+                  fill 
+                  className="object-cover"
+                  unoptimized
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-4 bg-slate-100 border-t border-slate-200">
+                <h4 className="font-bold text-slate-800 text-xl uppercase">Avant</h4>
+              </div>
+            </div>
+            
+            <div className="bg-white rounded-2xl overflow-hidden shadow-lg border border-slate-200 flex flex-col">
+              <div className="relative aspect-square">
+                <Image 
+                  src="https://scontent.fcdg3-1.fna.fbcdn.net/v/t39.30808-6/489017790_2870538679783866_957018704579278757_n.jpg?stp=cp6_dst-jpg_tt6&_nc_cat=101&ccb=1-7&_nc_sid=e06c5d&_nc_ohc=E9NY0J34UtsQ7kNvwFy4v9c&_nc_oc=Adr-z6tP5fMBPuBYkwyKEEwktd71w5MQx6tPHWaa6JJ9xA2OUatqOTFnHFmkLfoqKpOlkEp-zHzHxtqayTNK2CYS&_nc_zt=23&_nc_ht=scontent.fcdg3-1.fna&_nc_gid=chEG0yTGWyqAdBD_flpY5g&_nc_ss=7a32e&oh=00_AfzW63guFaKEiTi_SstBXMrujuF-16A2RH7NhzFnX5fHJA&oe=69CE0A48" 
+                  alt="Après" 
+                  fill 
+                  className="object-cover"
+                  unoptimized
+                  referrerPolicy="no-referrer"
+                />
+              </div>
+              <div className="p-4 bg-blue-50 border-t border-blue-100">
+                <h4 className="font-bold text-blue-700 text-xl uppercase">Après</h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
       {/* The Kit */}
       <section className="py-20 px-4 max-w-7xl mx-auto">
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="relative aspect-[3/2] bg-slate-50 rounded-2xl overflow-hidden shadow-xl border border-slate-200 flex items-center justify-center p-8">
             <Image 
-              src="https://picsum.photos/seed/box/800/600" 
+              src="https://scontent.fcdg3-1.fna.fbcdn.net/v/t39.30808-6/639559109_10173788367980697_2468497065829578163_n.jpg?stp=cp6_dst-jpg_s280x280_tt6&_nc_cat=103&ccb=1-7&_nc_sid=e06c5d&_nc_ohc=WOW3aT_xaOgQ7kNvwE-WIOb&_nc_oc=AdonhPR2dIOEyI1tPuEdygePeObDFSxJ2NzErcMME_NKu9PpS4iqb8s5mZfjIn7vMLDcp64gmzPnJcluvvqCcOzl&_nc_zt=23&_nc_ht=scontent.fcdg3-1.fna&_nc_gid=kZCAga2kRHAKIOwVROzl7Q&_nc_ss=7a32e&oh=00_Afw02hyhovooZGFHIyKzRj1gWRSjG0Jdyj4srK3UIWQhjQ&oe=69CE0D7E" 
               alt="LifeWave X39 Box" 
               fill 
-              className="object-contain p-8"
+              className="object-cover"
+              unoptimized
               referrerPolicy="no-referrer"
             />
           </div>
