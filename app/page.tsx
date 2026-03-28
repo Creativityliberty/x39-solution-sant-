@@ -90,7 +90,8 @@ export default function Home() {
             {[
               "Arthrose Vertébrale", "Neuropathie Sévère", "Fasciite Plantaire", 
               "Douleurs Chroniques Cou & Dos", "Douleurs de Fibromyalgie", "Gonflement Sévère", 
-              "Digestion & Constipation", "Inconfort lié à l'Ostéoporose"
+              "Digestion & Constipation", "Inconfort lié à l'Ostéoporose",
+              "Hernies Discales", "Eczéma", "Migraines", "Allergies", "Récupération Post-AVC"
             ].map((disease, idx) => (
               <span key={idx} className="bg-white text-blue-700 px-6 py-2 rounded-full font-bold shadow-md">
                 {disease}
@@ -244,7 +245,13 @@ export default function Home() {
               { name: "Brenda Kukuk Price", condition: "Disques Dégénératifs", text: "J'ai des disques dégénératifs sévères dans le dos et de l'ostéoporose. J'avais des douleurs chroniques avant les patchs. Maintenant, c'est teeeellement mieux !! X39, X49 et Aeon ont changé ma vie." },
               { name: "Lynnette Smith", condition: "Douleur au bas du dos", text: "J'ai eu de fortes douleurs au bas du dos pendant des années après un accident... Pas de chirurgie pour moi ! Ils commencent à agir dès que vous les mettez sur votre corps ! Je suis ravie !" },
               { name: "D.j. Tillman", condition: "Gonflement Sévère", text: "Mon amie pouvait à peine marcher, je lui ai mis les patchs X39 et Aeon sur la zone affectée. En 24 heures, la douleur et le gonflement avaient disparu." },
-              { name: "Sophie", condition: "Fatigue", text: "J’étais sceptique au début, mais j’ai senti une différence sur mon énergie dès la première semaine." }
+              { name: "Sophie", condition: "Fatigue", text: "J’étais sceptique au début, mais j’ai senti une différence sur mon énergie dès la première semaine." },
+              { name: "Deborah", condition: "Douleurs Articulaires", text: "J'avais d'horribles douleurs d'arthrite dans les articulations, surtout aux mains, au dos et aux épaules. La douleur a complètement disparu !! Ma mère de 84 ans avait les os qui frottaient dans ses genoux... La douleur a disparu en 5 minutes avec le patch." },
+              { name: "Dori Manolache", condition: "Hernies & Fibromyalgie", text: "J'ai eu 6 hernies discales pendant 15 ans de souffrances atroces. J'ai découvert les patchs et depuis 3 ans je n'ai plus aucune douleur. J'ai résolu ma fibromyalgie, mes 6 hernies, ma thyroïde d'Hashimoto et mon arthrite." },
+              { name: "Phil S", condition: "Récupération & Eczéma", text: "Après un AVC en 2018, je suis resté 1 an et demi sans pouvoir faire une phrase fluide. Avec le patch X39, en seulement 10 jours j'ai retrouvé mon élocution. Mon eczéma sur les coudes depuis plus de 20 ans a aussi totalement disparu." },
+              { name: "Nathalie Brunet", condition: "Allergies & Arthrose", text: "J’ai beaucoup plus d'énergie, je suis plus positive et concentrée. Je n’ai plus d’allergie et au bout de 3 mois, plus d'arthrose dans les genoux. J’ai évité l’infiltration." },
+              { name: "Christine G.", condition: "Anti-âge & Énergie", text: "Après avoir utilisé X39, les rides et ridules de ma peau ont commencé à s'estomper. Mon énergie est incroyable, plus de coup de barre l'après-midi. Le brouillard mental a également disparu !" },
+              { name: "Altair D.", condition: "Migraines Sévères", text: "Les migraines de mon collègue acupuncteur ont disparu en une semaine après avoir commencé le X39. Auparavant, ni l'acupuncture, ni l'homéopathie, ni les médicaments n'avaient aidé." }
             ].map((t, i) => (
               <div key={i} className="bg-white p-6 rounded-xl border border-slate-200 shadow-md flex flex-col hover:shadow-lg transition-shadow">
                 <div className="flex text-amber-500 mb-3">
